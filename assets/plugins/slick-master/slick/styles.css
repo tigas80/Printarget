@@ -1,0 +1,7 @@
+.row.muuri {
+	position: relative;
+}
+
+.row.muuri > * {
+	position: absolute;
+}

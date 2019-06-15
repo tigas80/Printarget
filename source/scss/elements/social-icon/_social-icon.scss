@@ -1,0 +1,191 @@
+.social-icon {
+
+    &.with-border {
+
+        > div {
+            width: 60px;
+            height: 60px;
+            line-height: 58px;
+            text-align: center;
+            display: inline-block;
+            vertical-align: middle;
+            border-radius: 50%;
+            margin: 0 7.5px;
+            border-width: 3px;
+            border-style: solid;
+            transition: all 0.3s ease-out;
+    
+            &:first-child {
+                margin-left: 0;
+            }
+    
+            &:last-child {
+                margin-right: 0;
+            }
+    
+            &:hover {
+                transition: all 0.3s ease-out;
+    
+                i {
+                    transition: all 0.3s ease-out;
+                }
+            }
+    
+            a {
+                display: block;
+            }
+        }
+    }
+
+    &.without-border {
+        
+        > div {
+            text-align: center;
+            display: inline-block;
+            vertical-align: middle;
+            margin: 0 15px;
+            transition: all 0.3s ease-out;
+    
+            &:first-child {
+                margin-left: 0;
+            }
+    
+            &:last-child {
+                margin-right: 0;
+            }
+    
+            &:hover {
+                transition: all 0.3s ease-out;
+    
+                i {
+                    transition: all 0.3s ease-out;
+                }
+            }
+    
+            a {
+                display: block;
+            }
+        }
+    }
+
+    &.without-border-2 {
+        
+        > div {
+            text-align: center;
+            display: inline-block;
+            vertical-align: middle;
+            margin: 0 15px;
+            transition: all 0.3s ease-out;
+    
+            &:first-child {
+                margin-left: 0;
+            }
+    
+            &:last-child {
+                margin-right: 0;
+            }
+
+            i {
+                font-size: 19px;
+                transition: all 0.3s ease-out;
+            }
+    
+            &:hover {
+                transition: all 0.3s ease-out;
+    
+                i {
+                    transition: all 0.3s ease-out;
+                }
+            }
+    
+            a {
+                display: block;
+            }
+        }
+    }
+
+    &.without-border-3 {
+        
+        > div {
+            text-align: center;
+            display: inline-block;
+            vertical-align: middle;
+            margin: 0 7.5px;
+            transition: all 0.3s ease-out;
+    
+            &:first-child {
+                margin-left: 0;
+            }
+    
+            &:last-child {
+                margin-right: 0;
+            }
+
+            i {
+                font-size: 14px;
+                transition: all 0.3s ease-out;
+            }
+    
+            &:hover {
+                transition: all 0.3s ease-out;
+    
+                i {
+                    transition: all 0.3s ease-out;
+                }
+            }
+    
+            a {
+                display: block;
+            }
+        }
+    }
+}
+
+.social-network-widget {
+
+    .social-bl {
+        display: table;
+        width: 100%;
+        position: relative;
+        margin-bottom: 10px;
+        overflow: hidden;
+
+        &:hover {
+
+            .social-title {
+                transition: all 0.3s ease-out; 
+            }
+        }
+
+        a {
+            display: table-row;
+            height: 60px;
+            line-height: 60px;
+            position: relative;
+            z-index: 10;
+        }
+
+        .social-icon-bl {
+            display: table-cell;
+            width: 60px;
+            text-align: center;
+        }
+
+        .social-title {
+            display: table-cell;
+            font-family: "Nunito Sans";
+            font-size: 14px;
+            font-weight: 900;
+            line-height: 14px;
+            text-transform: uppercase;
+            padding-left: 30px;
+            transition: all 0.3s ease-out; 
+        }
+
+        .social-counter {
+            font-size: 12px;
+            font-weight: 400;
+            text-transform: uppercase;
+        }
+    }
+}

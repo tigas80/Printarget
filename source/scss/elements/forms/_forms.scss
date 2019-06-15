@@ -1,0 +1,27 @@
+.default-form {
+
+	.default-input {
+		padding: 20.5px 30px;
+		border: none;
+		outline: none;
+		font-size: 14px;
+		font-weight: 700;
+		font-style: italic;
+
+		@each $prefix in ( '::-webkit-input-', '::-moz-', ':-moz-', ':-ms-input-' ) {
+			&#{$prefix}placeholder { font-style: italic; font-size: 14px; }
+		}
+	}
+
+	&.team-form {
+
+		> div {
+			margin-bottom: 10px;
+		}		
+	}
+
+	textarea {
+		resize: none;
+		min-height: 170px;
+	}
+}

@@ -1,0 +1,54 @@
+.default-tabs {
+
+	&.add-tabs {
+		
+		.nav-tabs {
+
+			li {
+
+				a {
+					padding: 19px 30px;
+				}
+			}
+		}
+	}
+
+	.nav-tabs {
+		border-bottom-width: 4px;
+		border-bottom-style: solid; 
+		margin-left: 0;
+
+		li {
+			padding: 0;
+			display: inline-block;
+
+			a {
+				font-size: 14px;
+				font-weight: 900;
+				text-transform: uppercase;
+				padding: 19px 50px;
+				margin-right: 1px;
+				line-height: normal;
+				display: block;
+				transition: all 0.3s ease-out;
+
+				&:hover,
+				&:focus {
+					border-color: transparent;
+					transition: all 0.3s ease-out;
+				}
+			}
+		}
+	}
+
+	.main-text {
+		padding: 60px;
+		line-height: 30px;
+	}
+
+	.single-team-title {
+		font-size: 20px;
+		font-weight: 900;
+		line-height: 27px;
+	}
+}
